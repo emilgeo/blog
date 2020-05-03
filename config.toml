@@ -1,0 +1,69 @@
+baseurl = "https://emilgeo.github.io"
+title = "Emil's Hub"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Emil George"
+    description = ""
+    keywords = "blog,developer,personal"
+    info = "Developer and Tech Magician"
+    #avatarurl = "images/avatar.jpg"
+    #gravatar = "emil.george7@gmail.com"
+    footercontent = "Powered by Hugo | Made with ❤"
+
+    dateformat = "January 2, 2006"
+
+    hideFooter = false
+    hideCredits = true
+    hideCopyright = true
+    since = 2020
+
+    rtl = false
+    colorscheme = "dark"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/emilgeo/"
+[[params.social]]
+    name = "Github"
+    icon = "far fa-envelope"
+    weight = 1
+    url = "mailto:emil.george7@gmail.com"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/iamemil7/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/emil-george-84a9bb68/"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 4
+    url = "https://www.instagram.com/meetemil/"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = 6
+    url = "https://emilgeo.github.io.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
