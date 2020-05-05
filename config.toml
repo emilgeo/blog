@@ -1,4 +1,4 @@
-baseurl = "https://emilgeo.github.io"
+baseurl = "https://emilg.dev"
 title = "Emil's Hub"
 theme = "hugo-coder"
 languagecode = "en"
@@ -65,6 +65,6 @@ pygmentscodefencesguesssyntax = true
     name = "RSS"
     icon = "fas fa-rss"
     weight = 6
-    url = "https://emilgeo.github.io.com/index.xml"
+    url = "https://emilg.dev/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
