@@ -42,29 +42,36 @@ pygmentscodefencesguesssyntax = true
     weight = 1
     url = "https://github.com/emilgeo/"
 [[params.social]]
-    name = "Github"
-    icon = "far fa-envelope"
-    weight = 1
-    url = "mailto:emil.george7@gmail.com"
-[[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
-    weight = 3
+    weight = 2
     url = "https://twitter.com/iamemil7/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
-    weight = 4
+    weight = 3
     url = "https://www.linkedin.com/in/emil-george-84a9bb68/"
 [[params.social]]
     name = "Instagram"
     icon = "fab fa-instagram"
     weight = 4
     url = "https://www.instagram.com/meetemil/"
-[[params.social]]
-    name = "RSS"
-    icon = "fas fa-rss"
-    weight = 6
-    url = "https://emilg.dev/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
+
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
+            weight = 1
+            url = "contact/"
+
+#print raw html in markdown file
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
