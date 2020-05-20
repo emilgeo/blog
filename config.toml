@@ -56,6 +56,13 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-instagram"
     weight = 4
     url = "https://www.instagram.com/meetemil/"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = 5
+    url = "https://emilg.me/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
 
 
 [languages]
