@@ -1,4 +1,4 @@
-baseurl = "https://emilg.me"
+baseurl = "https://emilg.dev"
 title = "Emil's Hub"
 theme = "hugo-coder"
 languagecode = "en"
@@ -16,16 +16,16 @@ pygmentscodefencesguesssyntax = true
     author = "Emil George"
     description = ""
     keywords = "blog,developer,personal"
-    info = "Developer and Tech Magician"
+    info = "Software Engineer and Tech Magician"
     #avatarurl = "images/avatar.jpg"
-    #gravatar = "emil.george7@gmail.com"
-    footercontent = "Powered by Hugo | Made with ❤"
+    #gravatar = "hi@emilg.dev"
+    footercontent = "Powered by Hugo & Coder | Made with ❤"
 
     dateformat = "January 2, 2006"
 
     hideFooter = false
     hideCredits = true
-    hideCopyright = true
+    hideCopyright = false
     since = 2020
 
     rtl = false
@@ -50,7 +50,7 @@ pygmentscodefencesguesssyntax = true
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 3
-    url = "https://www.linkedin.com/in/emil-george-84a9bb68/"
+    url = "https://www.linkedin.com/in/emilgeo/"
 [[params.social]]
     name = "Instagram"
     icon = "fab fa-instagram"
@@ -60,7 +60,7 @@ pygmentscodefencesguesssyntax = true
     name = "RSS"
     icon = "fas fa-rss"
     weight = 5
-    url = "https://emilg.me/index.xml"
+    url = "https://emilg.dev/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
